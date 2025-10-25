@@ -141,6 +141,18 @@ l.reverse();
 l.begin();
 
 
+//priority_queue - max heap
+priority_queue<int> pq;
+pq.push(5);
+pq.pop();
+pq.empty();
+pq.size();
+pq.top();
+
+//priority_queue - min heap
+priority_queue<int,vector<int>,greater<int>>pq;
+
+
 // algorithms
 
 //find(it, it, element)
